@@ -1,7 +1,7 @@
 # WebDevelopPractice
 
 **Museum of candy**
-模擬糖果博物館官方網站，從museum_of_candy.html開始執行。網站上有Home跟About兩個頁面，首頁是Home，About是博物館介紹頁。 首頁有針對不同大小的設備做不同的版面配置。
+模擬糖果博物館官方網站，museum_of_candy.html是首頁。網站上有Home跟About兩個頁面，首頁是Home，About是博物館介紹頁。 首頁有針對不同大小的設備做不同的版面配置。
 
 **Score keeper**
 排球比賽電子計分板。下拉式選單可以選擇排球比賽的目標分數，以及勾選是否有duce規則。
