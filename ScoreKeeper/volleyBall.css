@@ -1,42 +1,12 @@
-/* margin 上右下左 */
-body {
-    font-family: "Roboto Condensed", sans-serif;
+#mainDiv{
+    padding: 0 0 24px 0;
 }
-
-#volleyballImg {
-    padding: 0;
+#textDiv{
+    padding: 1em 2em 0 2em;
 }
-
-.boxBorder {
-    border-width: 0.05em;
-    border-style: solid;
-    border-color: rgb(200, 200, 200);
-    padding: 0.6em;
-    border-top: 0;
+h1{
+    font-size: medium;
 }
-
-#title h2 {
-    font-size: 80%;
-    margin: 0.1em auto 0.1em 0.1em;
-}
-
-#mainDiv {
-    width: 400px;
-    margin: 1em auto auto auto;
-}
-h1 {
-    margin: 0 auto 0 auto;
-}
-#mainDiv p {
-    font-size: 80%;
-}
-
-#mainDiv label {
-    font-size: 90%;
+label{
     display: block;
-    font-weight: bold;
-}
-.btn{
-    border-radius: 0;
-    opacity: 0.95;
 }
