@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum of candy</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="museum_of_candy.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark py-0 fixed-top" id="mainNavbar">
+        <a href="#" class="navbar-brand">CANDY</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navLinks"
+            aria-label="toggle navigation">
+            <!-- aria-label: 用於screen reader,告知功能 -->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <!-- 要收起來的data -->
+            <ul class="navbar-nav">
+                <!-- navbar的內容 -->
+                <li class="nav-item">
+                    <a href="#HOME" class="nav-link">HOME</a>
+                    <!-- 這個navbar item是個link -->
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">ABOUT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container-fluid px-0">
+        <div class="row d-flex align-items-center">
+            <div class="text-center text-white col-lg-6 d-none d-lg-block mt-5" id="titleGroup">
+                <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="imgs/hand2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid px-0 mb-5">
+        <!-- group 1 -->
+        <div class="row d-flex align-items-center content">
+            <!-- 垂直置中 -->
+            <div class="col-md-6 order-2 order-md-1">
+                <img class="img-fluid" src="imgs/milk.png" alt="">
+            </div>
+            <div class="col-md-6 order-1 order-md-2 candyIntro">
+                <div class="row d-flex justify-content-center">
+                    <!-- 水平置中 -->
+                    <div class="col-lg-8 col-10 text-center mb-5 mb-md-0">
+                        <!-- 讓以下三個分別置中
+                         (只有inline圖片可以直接用text-center，block要用 d-flex flex-column align-items-center) -->
+                        <h2 class="">MUSEUM OF CANDY</h2>
+                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                        <!-- 讓p的文字置中用text-center -->
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sequi
+                            itaque velit quae quaerat
+                            impedit ut! Tempora alias itaque minus, accusamus voluptatem enim assumenda repellendus
+                            dolorem,
+                            veritatis animi id dolore?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- group 2 -->
+        <div class="row d-flex align-items-center content">
+            <div class="col-md-6 candyIntro">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8 col-10 text-center mb-5 mb-md-0">
+                        <h2 class="">MUSEUM OF CANDY</h2>
+                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sequi
+                            itaque velit quae quaerat
+                            impedit ut! Tempora alias itaque minus, accusamus voluptatem enim assumenda repellendus
+                            dolorem,
+                            veritatis animi id dolore?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="imgs/gumball.png" alt="">
+            </div>
+        </div>
+        <!-- group 3 -->
+        <div class="row d-flex align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img class="img-fluid" src="imgs/sprinkles.png" alt="">
+            </div>
+            <div class="col-md-6 order-1 order-md-2 candyIntro">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8 col-10 text-center mb-5 mb-md-0">
+                        <h2 class="">MUSEUM OF CANDY</h2>
+                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sequi
+                            itaque velit quae quaerat
+                            impedit ut! Tempora alias itaque minus, accusamus voluptatem enim assumenda repellendus
+                            dolorem,
+                            veritatis animi id dolore?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <script src="museum_of_candy.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+/* margin 上右下左 */
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#volleyballImg {
+    padding: 0;
+}
+
+.boxBorder {
+    border-width: 0.05em;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    padding: 0.6em;
+    border-top: 0;
+}
+
+#title h2 {
+    font-size: 80%;
+    margin: 0.1em auto 0.1em 0.1em;
+}
+
+#mainDiv {
+    width: 400px;
+    margin: 1em auto auto auto;
+}
+h1 {
+    margin: 0 auto 0 auto;
+}
+#mainDiv p {
+    font-size: 80%;
+}
+
+#mainDiv label {
+    font-size: 90%;
+    display: block;
+    font-weight: bold;
+}
+.btn{
+    border-radius: 0;
+    opacity: 0.95;
+}
